@@ -132,7 +132,7 @@ def main():
 
     @bot.event
     async def on_ready():#when the bot is ready sends the results file to the discord channel
-        channel = bot.get_channel("your chanel id")
+        channel = bot.get_channel("YOUR CHANEL ID")
         if channel:
             await channel.send(file=discord.File('results.json'))
         await bot.close()

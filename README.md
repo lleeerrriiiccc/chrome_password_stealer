@@ -25,3 +25,4 @@ pyinstaller --onefile --windowed chrome.py
 ```
 ## Discord setup
 First you need to enable the developer mode for discord. To do so you need to acces the configuration then advanced and enable the developer mode 
+![Alt text](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/developer_mode.png)

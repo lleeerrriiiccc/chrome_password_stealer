@@ -37,7 +37,7 @@ Then renew the bot token and paste it into the code where indicated.
 
 Navigate tho the 0auth section and click on bot and then administrator. Once this done select Guild install in the list below. Copy the link and acces to it. Select the server you want to use and click on authorize.
 
-After this is done go back to your discord app and copi the id on the chanel you want the bot to send the fil. Do so by left click on the chanel and select copi canel id.
+After this is done go back to your discord app and copi the id of the chanel you want the bot to send the file. Do so by left click on the chanel and select copi chanel id.
 Then paste the chanel id where indicated in the code.
 
 ## results

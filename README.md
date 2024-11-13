@@ -30,7 +30,7 @@ Then you need to go to the https://discord.com/developers/ the discord thevelope
 
 Then you ned to navigate to the bot section and create a new bot and enable all types of intents and select administrator on the bot permission settings. Then save the changes.
 ![Image of the bot configuration](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/intents.png)
-![image of the bot configuration](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/intents.png)
+![image of the bot configuration](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/permissions.png)
 
 Then renew the bot token and paste it into the code where indicated.
 ### Adding bot to server

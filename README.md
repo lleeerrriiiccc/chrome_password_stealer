@@ -1,7 +1,7 @@
 # chrome_password_stealer
-This python script steals all the chrome password stored in a device and uploads them into a discord server. This program only works in windows and only for chrome. The windows defender doesn't detect it but maybe other programs can.
+This python script steals all the chrome password stored in a device and uploads them into a discord server. This program only works in windows and only for chrome. Windows defender doesn't detect it but other antivirus may.
 ## instalation
-Download or clone the repository and eecute this command to install all dependencies, if you want to compile to a exe file you will need to install pyinstaller too.
+Download or clone the repository and execute this command to install all dependencies, if you want to compile to a exe file you will need to install pyinstaller too.
 ```bash
 pip install -r requirements.txt
 pip install pyinstaller
@@ -23,21 +23,21 @@ To compile to a .exe file run this command where the chrome.py file is stored
 pyinstaller --onefile --windowed chrome.py
 ```
 ## Discord setup
-First you need to enable the developer mode for discord. To do so you need to acces the configuration then advanced and enable the developer mode 
+First you need to enable the developer mode for discord. To do so you need to acces discord configuration and navigate to the advanced menu, then enable the developer mode 
 ![Image of the option to enable](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/developer_mode.png)
-Then you need to go to the https://discord.com/developers/ the discord theveloper portal and clic on new application
+Then you need to navigate to the following URL https://discord.com/developers/ the discord developer portal and clic on new application
 ![Image of the app creation](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/app_creation.png)
 
-Then you ned to navigate to the bot section and create a new bot and enable all types of intents and select administrator on the bot permission settings. Then save the changes.
+Then you need to navigate to the bot section and create a new bot, then enable all types of intents and select administrator on the bot permission settings. Then save the changes.
 ![Image of the bot configuration](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/intents.png)
 ![image of the bot configuration](https://github.com/lleeerrriiiccc/chrome_password_stealer/blob/main/images/permissions.png)
 
-Then renew the bot token and paste it into the code where indicated.
+Renew the bot token and paste it into the code where indicated.
 ### Adding bot to server
 
 Navigate tho the 0auth section and click on bot and then administrator. Once this done select Guild install in the list below. Copy the link and acces to it. Select the server you want to use and click on authorize.
 
-After this is done go back to your discord app and copi the id of the chanel you want the bot to send the file. Do so by left click on the chanel and select copi chanel id.
+After this is done go back to your discord app and copy the id of the chanel you want the bot to send the file to. Do so by left click on the chanel and select copi chanel id.
 Then paste the chanel id where indicated in the code.
 
 ## results
